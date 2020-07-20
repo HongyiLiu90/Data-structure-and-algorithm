@@ -2,7 +2,7 @@
 
 class Solution:
 
-	def AlmostEquivalent(self, s,t ):
+	def AlmostEquivalent(self, s,t):
 		n = len(s)
 		res = []
 		for i in range(n):
