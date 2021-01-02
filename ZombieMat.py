@@ -9,7 +9,7 @@ from collections import deque
 class ZombieMat:
 
     def zombie(self, grid):
-        # write your code here
+        
         if grid == None or len(grid) == 0 or len(grid[0]) == 0:
             return 0
         
@@ -19,7 +19,6 @@ class ZombieMat:
             
         qx = deque()
         qy = deque()
-        #v = [[False] * m for _ in range(n)]
         
         for i in range(n):
             for j in range(m):
